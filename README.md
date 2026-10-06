@@ -47,4 +47,4 @@ I build **LLM-powered systems** and **full-stack products that ship**. I'm a B.T
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=mayank-pillai-99&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0b0b0f&title_color=ffd400&icon_color=ff2e63&text_color=f2f0e9" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayank-pillai-99&layout=compact&hide_border=true&bg_color=0b0b0f&title_color=ffd400&text_color=f2f0e9" alt="Top languages" />
 </p>
-<img src="https://nirzak-streak-stats.vercel.app/?user=mayank-pillai-99&hide_border=true&background=0b0b0f&ring=ffd400&fire=ff2e63&currStreakLabel=ffd400&sideLabels=f2f0e9&currStreakNum=f2f0e9&sideNums=f2f0e9&dates=a3a1b0" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com/?user=mayank-pillai-99&hide_border=true&background=0b0b0f&ring=ffd400&fire=ff2e63&currStreakLabel=ffd400&sideLabels=f2f0e9&currStreakNum=f2f0e9&sideNums=f2f0e9&dates=a3a1b0" alt="GitHub streak" />
