@@ -1,0 +1,39 @@
+name: Refresh stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch cards (keep the previous card if a fetch fails)
+        run: |
+          set -u
+          COLORS="hide_border=true&bg_color=0b0b0f&title_color=ffd400&text_color=f2f0e9"
+          fetch() {
+            # $1 = output file, $2 = url, $3 = text a valid card must contain
+            if curl -sf --max-time 60 "$2" -o /tmp/card.svg && grep -q "$3" /tmp/card.svg && ! grep -qi "something went wrong" /tmp/card.svg; then
+              mv /tmp/card.svg "assets/$1"
+              echo "updated $1"
+            else
+              echo "kept previous $1"
+            fi
+          }
+          fetch stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&icon_color=ff2e63&$COLORS" "Total Commits"
+          fetch top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&$COLORS" "Most Used Languages"
+          fetch streak.svg "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&background=0b0b0f&ring=ffd400&fire=ff2e63&currStreakLabel=ffd400&sideLabels=f2f0e9&currStreakNum=f2f0e9&sideNums=f2f0e9&dates=a3a1b0" "Current Streak"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || (git commit -m "Refresh stats cards" && git push)
