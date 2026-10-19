@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+<title id="t">Mayank Pillai</title>
+<desc id="d">AI Engineer and Full-Stack Developer. Now shipping Codebase Copilot.</desc>
+<defs>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+  <pattern id="hz" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="28" height="28" fill="#0b0b0f"/><rect width="14" height="28" fill="#ffd400"/>
+  </pattern>
+  <clipPath id="nameClip"><rect x="0" y="92.79999999999998" width="1200" height="152"/></clipPath>
+  <linearGradient id="glow" x1="1" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd400" stop-opacity="0.16"/>
+    <stop offset="0.55" stop-color="#ffd400" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<style>
+  .rise { animation: rise .9s cubic-bezier(.22,1,.36,1) both; }
+  @keyframes rise { from { transform: translateY(160px); } to { transform: none; } }
+  .wipe { animation: wipe .6s cubic-bezier(.22,1,.36,1) .05s both; }
+  @keyframes wipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+  .fade { animation: fade .6s ease-out both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .bar { transform-origin: 64px 0; animation: bar 1.1s cubic-bezier(.22,1,.36,1) .5s both; }
+  @keyframes bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  .stripe { animation: stripe 6s linear infinite; }
+  @keyframes stripe { to { transform: translateX(-56px); } }
+  .pulse { animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .2; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1200" height="340" fill="#0b0b0f"/>
+<rect width="1200" height="340" fill="url(#grid)"/>
+<rect width="1200" height="340" fill="url(#glow)"/>
+
+<g class="stripe"><rect x="0" y="0" width="1256" height="10" fill="url(#hz)"/></g>
+<rect x="0" y="335" width="1200" height="5" fill="url(#hz)"/>
+
+<g class="wipe">
+  <polygon points="72,40 242,40 234,66 64,66" fill="#ff2e63"/>
+  <text x="84" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" letter-spacing="3.5" fill="#0b0b0f">AI ENGINEER</text>
+</g>
+<text class="fade" style="animation-delay:.25s" x="260" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="3.5" fill="#a3a1b0">FULL-STACK DEVELOPER</text>
+
+<g clip-path="url(#nameClip)">
+  <path class="rise" style="animation-delay:0.150s" fill="#f2f0e9" d="M94.94 240L70.09 240L70.09 102.50L111.97 102.50L123.53 186.33L135.02 102.50L177.28 102.50L177.28 240L152.13 240L152.13 140.94L136.34 240L111.66 240L94.94 140.94L94.94 240Z"/>
+  <path class="rise" style="animation-delay:0.195s" fill="#f2f0e9" d="M212.44 240L185.72 240L199 102.50L245.64 102.50L258.69 240L232.67 240L230.72 217.81L214.16 217.81L212.44 240ZM221.34 125.94L216.11 195.86L228.61 195.86L222.59 125.94L221.34 125.94Z"/>
+  <path class="rise" style="animation-delay:0.240s" fill="#f2f0e9" d="M309.70 240L283.77 240L283.77 194.77L261.81 102.50L289.08 102.50L296.73 149.06L304.39 102.50L331.58 102.50L309.70 194.77L309.70 240Z"/>
+  <path class="rise" style="animation-delay:0.285s" fill="#f2f0e9" d="M361.50 240L334.78 240L348.06 102.50L394.70 102.50L407.75 240L381.73 240L379.78 217.81L363.22 217.81L361.50 240ZM370.41 125.94L365.17 195.86L377.67 195.86L371.66 125.94L370.41 125.94Z"/>
+  <path class="rise" style="animation-delay:0.330s" fill="#f2f0e9" d="M443.06 240L416.19 240L416.19 102.50L444.47 102.50L457.13 168.36L457.13 102.50L483.69 102.50L483.69 240L456.81 240L443.06 171.25L443.06 240Z"/>
+  <path class="rise" style="animation-delay:0.375s" fill="#f2f0e9" d="M523.22 240L495.88 240L495.88 102.50L523.06 102.50L523.06 157.58L535.88 102.50L563.53 102.50L548.14 165.47L566.73 240L538.22 240L523.22 173.44L523.22 240Z"/>
+  <path class="rise" style="animation-delay:0.420s" fill="#ffd400" d="M633.65 240L606.62 240L606.62 102.50L642.95 102.50Q654.36 102.50 661.04 107.58Q667.72 112.66 670.61 122.03Q673.50 131.41 673.50 144.38L673.50 144.38Q673.50 156.88 671.08 166.13Q668.65 175.39 662.44 180.47Q656.23 185.55 644.83 185.55L644.83 185.55L633.65 185.55L633.65 240ZM633.65 127.58L633.65 160.86L635.22 160.86Q642.87 160.86 644.59 156.56Q646.31 152.27 646.31 143.91L646.31 143.91Q646.31 136.09 644.63 131.84Q642.95 127.58 636.70 127.58L636.70 127.58L633.65 127.58Z"/>
+  <path class="rise" style="animation-delay:0.465s" fill="#ffd400" d="M707.48 240L680.92 240L680.92 102.50L707.48 102.50L707.48 240Z"/>
+  <path class="rise" style="animation-delay:0.510s" fill="#ffd400" d="M774.20 240L718.42 240L718.42 102.50L745.92 102.50L745.92 216.56L774.20 216.56L774.20 240Z"/>
+  <path class="rise" style="animation-delay:0.555s" fill="#ffd400" d="M837.79 240L782.01 240L782.01 102.50L809.51 102.50L809.51 216.56L837.79 216.56L837.79 240Z"/>
+  <path class="rise" style="animation-delay:0.600s" fill="#ffd400" d="M868.58 240L841.86 240L855.14 102.50L901.78 102.50L914.83 240L888.81 240L886.86 217.81L870.29 217.81L868.58 240ZM877.48 125.94L872.25 195.86L884.75 195.86L878.73 125.94L877.48 125.94Z"/>
+  <path class="rise" style="animation-delay:0.645s" fill="#ffd400" d="M948.58 240L922.01 240L922.01 102.50L948.58 102.50L948.58 240Z"/>
+</g>
+
+<rect x="64" y="262" width="889.41875" height="2" fill="#2c2c3a"/>
+<rect class="bar" x="64" y="262" width="889.41875" height="2" fill="#ffd400"/>
+
+<g class="fade" style="animation-delay:.9s" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2.5">
+  <circle class="pulse" cx="69" cy="303" r="4.5" fill="#ffd400"/>
+  <text x="84" y="308" fill="#a3a1b0">NOW SHIPPING <tspan fill="#f2f0e9" font-weight="700">CODEBASE COPILOT</tspan></text>
+  <text x="1136" y="308" text-anchor="end" fill="#a3a1b0">LLM SYSTEMS · TEXT-TO-SQL · RAG · NEXT.JS</text>
+</g>
+
+<g class="fade" style="animation-delay:.6s">
+  <polygon points="1054,36 1136,36 1126,80 1044,80" fill="#ffd400"/>
+  <path fill="#0b0b0f" d="M1069.89 74L1062.75 74L1062.75 34.47L1074.79 34.47L1078.12 58.57L1081.42 34.47L1093.57 34.47L1093.57 74L1086.34 74L1086.34 45.52L1081.80 74L1074.70 74L1069.89 45.52L1069.89 74Z"/><path fill="#0b0b0f" d="M1104.84 74L1097.07 74L1097.07 34.47L1107.52 34.47Q1110.80 34.47 1112.72 35.93Q1114.64 37.39 1115.47 40.08Q1116.30 42.78 1116.30 46.51L1116.30 46.51Q1116.30 50.10 1115.60 52.76Q1114.91 55.42 1113.12 56.88Q1111.33 58.34 1108.06 58.34L1108.06 58.34L1104.84 58.34L1104.84 74ZM1104.84 41.68L1104.84 51.25L1105.29 51.25Q1107.49 51.25 1107.99 50.01Q1108.48 48.78 1108.48 46.37L1108.48 46.37Q1108.48 44.13 1108.00 42.90Q1107.52 41.68 1105.72 41.68L1105.72 41.68L1104.84 41.68Z"/>
+</g>
+</svg>

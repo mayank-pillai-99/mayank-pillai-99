@@ -1,5 +1,5 @@
 <a href="https://mayank-pillai.vercel.app">
-  <img src="https://mayank-pillai.vercel.app/opengraph-image.png" alt="Mayank Pillai — AI Engineer · Full-Stack Developer" width="100%" />
+  <img src="./assets/header.svg" alt="Mayank Pillai — AI Engineer · Full-Stack Developer" width="100%" />
 </a>
 
 <p align="center">
@@ -10,6 +10,8 @@
   <a href="https://mayank-pillai.vercel.app/Resume.pdf"><b>Resume</b></a>
 </p>
 
+<img src="./assets/divider.svg" width="100%" alt="" />
+
 ## Hi, I'm Mayank 👋
 
 I build **LLM-powered systems** and **full-stack products that ship**. I'm a B.Tech in Artificial Intelligence student (2024–28) at Newton School of Technology, Rishihood University, with a 9.45 CGPA.
@@ -17,6 +19,8 @@ I build **LLM-powered systems** and **full-stack products that ship**. I'm a B.T
 - 🔬 **Summer '26 @ BITS Pilani:** built an offline, multilingual voice-and-text → PostGIS SQL search engine. Qwen2.5-Coder-7B hit a **78% zero-shot pass rate** on my 186-query benchmark.
 - 🛠️ **Building:** [Codebase Copilot](https://github.com/mayank-pillai-99/codebase-copilot), which answers questions about any TS/JS repo with file-and-line citations.
 - 🎯 **Looking for:** AI engineering and full-stack internships.
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## Featured work
 
@@ -26,6 +30,8 @@ I build **LLM-powered systems** and **full-stack products that ship**. I'm a B.T
 | **[Hitbox](https://github.com/mayank-pillai-99/Hitbox)** · [live](https://hitbox-6d3o.vercel.app) | Social platform for gamers with explainable recommendations; 200+ tests, 0 WCAG AA violations | Next.js, Express, MongoDB, zod, Vitest |
 | **[Intent-Driven Spatial Search](https://github.com/mayank-pillai-99/Intent-Driven-Spatial-Search-Engine)** | Offline multilingual voice/text → PostGIS SQL via an LLM intent router with RAG fallback | Python, PostGIS, LangChain, FAISS, SeamlessM4T |
 | **[BookConnect](https://github.com/mayank-pillai-99/BookConnect-frontend)** · [live](https://book-connect-frontend.vercel.app) | Real-time social network for readers with instant messaging | MERN, Redux Toolkit, Socket.io |
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## Tech stack
 
@@ -41,10 +47,14 @@ I build **LLM-powered systems** and **full-stack products that ship**. I'm a B.T
 **Tooling & deploy**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
+<img src="./assets/divider.svg" width="100%" alt="" />
+
 ## GitHub stats
 
 <p>
-  <img height="165" src="./assets/stats.svg" alt="GitHub stats" />
-  <img height="165" src="./assets/top-langs.svg" alt="Top languages" />
+  <img src="./assets/stats.svg" width="49%" alt="GitHub stats" />
+  <img src="./assets/langs.svg" width="49%" alt="Most used languages" />
 </p>
-<img src="./assets/streak.svg" alt="GitHub streak" />
+<img src="./assets/year.svg" width="100%" alt="Weekly contributions over the last year" />
+
+<sub>Self-hosted cards, redrawn every 6 hours by <a href="./.github/workflows/stats.yml">a workflow</a> from the GitHub API.</sub>
