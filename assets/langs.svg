@@ -20,21 +20,21 @@
   <text x="38" y="38.5" font-weight="700" fill="#0b0b0f">LANGS</text>
   <text x="118" y="38.5" fill="#a3a1b0">BY CODE SIZE · PUBLIC REPOS</text>
 </g>
-<g class="grow-x" style="transform-origin:32px 0"><rect x="32.0" y="72" width="199.2" height="14" fill="#3178c6"/><rect x="233.2" y="72" width="162.4" height="14" fill="#f1e05a"/><rect x="397.6" y="72" width="102.4" height="14" fill="#3572A5"/><rect x="501.9" y="72" width="7.3" height="14" fill="#e34c26"/><rect x="511.2" y="72" width="6.4" height="14" fill="#663399"/><rect x="519.5" y="72" width="6.5" height="14" fill="#2c2c3a"/></g>
+<g class="grow-x" style="transform-origin:32px 0"><rect x="32.0" y="72" width="197.5" height="14" fill="#3178c6"/><rect x="231.5" y="72" width="165.1" height="14" fill="#f1e05a"/><rect x="398.7" y="72" width="101.5" height="14" fill="#3572A5"/><rect x="502.1" y="72" width="7.2" height="14" fill="#e34c26"/><rect x="511.3" y="72" width="6.3" height="14" fill="#663399"/><rect x="519.6" y="72" width="6.4" height="14" fill="#2c2c3a"/></g>
 <g transform="translate(32 120)"><g class="in" style="animation-delay:0.25s">
     <rect y="-10" width="10" height="10" fill="#3178c6"/>
     <text x="20" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0e9">TypeScript</text>
-    <text x="236" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#a3a1b0">40.6%</text>
+    <text x="236" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#a3a1b0">40.2%</text>
   </g></g>
 <g transform="translate(288 120)"><g class="in" style="animation-delay:0.31s">
     <rect y="-10" width="10" height="10" fill="#f1e05a"/>
     <text x="20" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0e9">JavaScript</text>
-    <text x="236" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#a3a1b0">33.1%</text>
+    <text x="236" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#a3a1b0">33.7%</text>
   </g></g>
 <g transform="translate(32 156)"><g class="in" style="animation-delay:0.37s">
     <rect y="-10" width="10" height="10" fill="#3572A5"/>
     <text x="20" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0e9">Python</text>
-    <text x="236" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#a3a1b0">21.0%</text>
+    <text x="236" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#a3a1b0">20.9%</text>
   </g></g>
 <g transform="translate(288 156)"><g class="in" style="animation-delay:0.43s">
     <rect y="-10" width="10" height="10" fill="#e34c26"/>
