@@ -5,7 +5,8 @@
   "scripts": {
     "header": "node scripts/build-header.mjs",
     "cards": "node scripts/build-cards.mjs",
-    "stack": "node scripts/build-stack.mjs"
+    "stack": "node scripts/build-stack.mjs",
+    "sections": "node scripts/build-sections.mjs"
   },
   "devDependencies": {
     "opentype.js": "^1.3.4",

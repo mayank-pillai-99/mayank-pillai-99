@@ -14,22 +14,29 @@
 
 ## Hi, I'm Mayank 👋
 
-I build **LLM-powered systems** and **full-stack products that ship**. I'm a B.Tech in Artificial Intelligence student (2024–28) at Newton School of Technology, Rishihood University, with a 9.45 CGPA.
-
-- 🔬 **Summer '26 @ BITS Pilani:** built an offline, multilingual voice-and-text → PostGIS SQL search engine. Qwen2.5-Coder-7B hit a **78% zero-shot pass rate** on my 186-query benchmark.
-- 🛠️ **Building:** [Codebase Copilot](https://github.com/mayank-pillai-99/codebase-copilot), which answers questions about any TS/JS repo with file-and-line citations.
-- 🎯 **Looking for:** AI engineering and full-stack internships.
+<a href="https://mayank-pillai.vercel.app">
+  <img src="./assets/about.svg" width="100%" alt="I build LLM-powered systems and full-stack products that ship. B.Tech in Artificial Intelligence at Newton School of Technology (2024–28). BITS Pilani '26: built an offline, multilingual voice-and-text to PostGIS SQL search engine; Qwen2.5-Coder-7B hit a 78% zero-shot pass rate on my 186-query benchmark. Building Codebase Copilot. Looking for AI engineering and full-stack internships. 9.45 CGPA, 200+ tests on Hitbox, 160+ LeetCode." />
+</a>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 ## Featured work
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[Codebase Copilot](https://github.com/mayank-pillai-99/codebase-copilot)** · [live](https://codebase-copilot-mu.vercel.app) | Parses a repo into a code graph and answers questions with hybrid retrieval (pgvector + full-text, RRF) and cited sources | TypeScript, Next.js, Fastify, pgvector, Redis, BullMQ, tree-sitter |
-| **[Hitbox](https://github.com/mayank-pillai-99/Hitbox)** · [live](https://hitbox-6d3o.vercel.app) | Social platform for gamers with explainable recommendations; 200+ tests, 0 WCAG AA violations | Next.js, Express, MongoDB, zod, Vitest |
-| **[Intent-Driven Spatial Search](https://github.com/mayank-pillai-99/Intent-Driven-Spatial-Search-Engine)** | Offline multilingual voice/text → PostGIS SQL via an LLM intent router with RAG fallback | Python, PostGIS, LangChain, FAISS, SeamlessM4T |
-| **[BookConnect](https://github.com/mayank-pillai-99/BookConnect-frontend)** · [live](https://book-connect-frontend.vercel.app) | Real-time social network for readers with instant messaging | MERN, Redux Toolkit, Socket.io |
+<p>
+  <a href="https://codebase-copilot-mu.vercel.app"><img src="./assets/project-copilot.svg" width="49%" alt="Codebase Copilot" /></a>
+  <a href="https://hitbox-6d3o.vercel.app"><img src="./assets/project-hitbox.svg" width="49%" alt="Hitbox" /></a>
+</p>
+<p>
+  <a href="https://github.com/mayank-pillai-99/Intent-Driven-Spatial-Search-Engine"><img src="./assets/project-spatial.svg" width="49%" alt="Intent-Driven Spatial Search" /></a>
+  <a href="https://book-connect-frontend.vercel.app"><img src="./assets/project-bookconnect.svg" width="49%" alt="BookConnect" /></a>
+</p>
+
+<sub>
+  <b>Codebase Copilot</b> <a href="https://codebase-copilot-mu.vercel.app">live</a> · <a href="https://github.com/mayank-pillai-99/codebase-copilot">code</a> &nbsp;|&nbsp;
+  <b>Hitbox</b> <a href="https://hitbox-6d3o.vercel.app">live</a> · <a href="https://github.com/mayank-pillai-99/Hitbox">code</a> &nbsp;|&nbsp;
+  <b>Spatial Search</b> <a href="https://github.com/mayank-pillai-99/Intent-Driven-Spatial-Search-Engine">code</a> &nbsp;|&nbsp;
+  <b>BookConnect</b> <a href="https://book-connect-frontend.vercel.app">live</a> · <a href="https://github.com/mayank-pillai-99/BookConnect-frontend">code</a>
+</sub>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 

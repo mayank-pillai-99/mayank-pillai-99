@@ -3,36 +3,9 @@
 // (GitHub serves README images as <img>, which blocks external fonts).
 // Run: npm run header
 
-import { existsSync, mkdirSync, writeFileSync } from "node:fs";
-import { readFile } from "node:fs/promises";
-import opentype from "opentype.js";
+import { mkdirSync, writeFileSync } from "node:fs";
+import { loadAnton, glyphs } from "./font.mjs";
 import { C, MONO, hazardPattern, gridPattern } from "./theme.mjs";
-
-const FONT_URL = "https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf";
-const FONT_PATH = ".cache/Anton-Regular.ttf";
-
-async function loadAnton() {
-  if (!existsSync(FONT_PATH)) {
-    mkdirSync(".cache", { recursive: true });
-    const res = await fetch(FONT_URL);
-    if (!res.ok) throw new Error(`font download failed: ${res.status}`);
-    writeFileSync(FONT_PATH, Buffer.from(await res.arrayBuffer()));
-  }
-  const buf = await readFile(FONT_PATH);
-  return opentype.parse(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength));
-}
-
-/** One path per glyph so each letter can animate on its own. */
-function glyphs(font, text, x, baseline, size) {
-  const out = [];
-  let cx = x;
-  for (const ch of text) {
-    const g = font.charToGlyph(ch);
-    if (ch !== " ") out.push({ ch, d: g.getPath(cx, baseline, size).toPathData(2) });
-    cx += (g.advanceWidth / font.unitsPerEm) * size;
-  }
-  return { paths: out, width: cx - x };
-}
 
 const W = 1200;
 const H = 340;
