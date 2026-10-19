@@ -32,12 +32,12 @@ function visible(hex) {
   return lum < 0.28 ? C.ink : `#${hex}`;
 }
 
-const W = 1200;
+const W = 860;
 const PAD = 32;
-const LABEL_W = 186;
 const CHIP_H = 34;
 const GAP = 8;
-const ROW_GAP = 22;
+const ROW_GAP = 20;
+const LABEL_H = 26;
 const ICON = 16;
 const CHAR_W = 8.1; // monospace 13px with letter-spacing .5
 
@@ -59,13 +59,14 @@ function chip(name, x, y, delay) {
 
 function build() {
   const parts = [];
-  let y = 76;
+  let y = 68;
   let n = 0;
-  const left = PAD + LABEL_W;
+  const left = PAD;
   const right = W - PAD;
 
   GROUPS.forEach((g, gi) => {
     const rowTop = y;
+    y += LABEL_H;
     let x = left;
     for (const name of g.items) {
       const probe = chip(name, 0, 0, 0);
@@ -77,8 +78,8 @@ function build() {
       x += probe.w + GAP;
     }
     parts.push(`<g transform="translate(${PAD} ${rowTop})"><g class="in" style="animation-delay:${(0.05 + gi * 0.08).toFixed(2)}s">
-    <rect x="0" y="${CHIP_H / 2 - 5}" width="10" height="10" fill="${g.color}"/>
-    <text x="20" y="${CHIP_H / 2 + 4.5}" font-family="${MONO}" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="${C.ink}">${esc(g.label)}</text>
+    <rect x="0" y="4" width="9" height="9" fill="${g.color}"/>
+    <text x="18" y="13" font-family="${MONO}" font-size="12" font-weight="700" letter-spacing="2.4" fill="${C.ink}">${esc(g.label)}</text>
   </g></g>`);
     y += CHIP_H;
     if (gi < GROUPS.length - 1) {
