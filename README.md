@@ -31,13 +31,6 @@
   <a href="https://book-connect-frontend.vercel.app"><img src="./assets/project-bookconnect.svg" width="49%" alt="BookConnect" /></a>
 </p>
 
-<sub>
-  <b>Codebase Copilot</b> <a href="https://codebase-copilot-mu.vercel.app">live</a> · <a href="https://github.com/mayank-pillai-99/codebase-copilot">code</a> &nbsp;|&nbsp;
-  <b>Hitbox</b> <a href="https://hitbox-6d3o.vercel.app">live</a> · <a href="https://github.com/mayank-pillai-99/Hitbox">code</a> &nbsp;|&nbsp;
-  <b>Spatial Search</b> <a href="https://github.com/mayank-pillai-99/Intent-Driven-Spatial-Search-Engine">code</a> &nbsp;|&nbsp;
-  <b>BookConnect</b> <a href="https://book-connect-frontend.vercel.app">live</a> · <a href="https://github.com/mayank-pillai-99/BookConnect-frontend">code</a>
-</sub>
-
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 ## Tech stack
